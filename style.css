@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0e1e4b;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    line-height: 300%;
+}
+
+.bg {
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    gap: 24px;
+}
+
+section ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section li {
+    text-align: center;
+}
+
+.card {
+    margin-top: 32px;
+    border-radius: 12px;
+    padding: 24px 32px 32px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+    /* GlassMorphism */
+    backdrop-filter: blur(5px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    -webkit-backdrop-filter: blur(5px) saturate(180%);
+}
+
+.card p {
+    margin-top: -20px;
+}
+
+.card img {
+    width: 120px;
+    border-radius: 50%;
+}
