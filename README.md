@@ -1,6 +1,8 @@
 # GlassMorphismCard
 Projeto desenvolvido com efeito de glassmorphism do css.
 
+## 🚀 Tecnologias
+
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 * HTML
 * CSS
